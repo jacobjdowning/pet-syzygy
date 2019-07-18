@@ -22,7 +22,7 @@ async function checkSquirt(events) {
 }
 
 async function getEvents() {
-	let eventResponse = await fetch("/events.json");
+	let eventResponse = await fetch(EVENTS_URI);
 	let eventJson = await eventResponse.json();
 	let eventDates = [];
 	for (var i = 0; i < eventJson.length; i++) {
