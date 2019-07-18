@@ -1,4 +1,4 @@
-const EVENTS_URI = "/events.json";
+const EVENTS_URI = "pet-syzygy/events.json";
 const REF_SQUIRT_NA = new Date(2019, 6, 23);
 const NUM_TRAINERS = 15;
 
