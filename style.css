@@ -1,0 +1,100 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Normalized ended */
+
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+html { 
+  background-image:
+  	linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0) 30%),
+  	url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1,p{
+  text-shadow: 1px 1px black;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Verdana";
+	font-size: 52px;
+	color: white;
+  flex: 1 1 auto; 
+}
+
+p {
+  padding-top: 20vh;
+	text-align: center;
+	font-family: "Verdana";
+	color: white;
+	font-size: 16px;
+  flex: 0 1 auto;
+}
+
+.date{
+  padding-top: 0;
+	font-size: 27px;
+}
+
+#wrapper{
+  height: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+#wrapper div{
+  display: flex;
+  flex: 20 1 auto;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+}
+
+/* Responsive Text Size */
+
+@media screen and (min-width: 320px) {
+  h1 {
+    font-size: calc(52px + 20 * ((100vw - 320px) / 680));
+  }
+  p {
+    font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  }
+  .date {
+    font-size: calc(27px + 5 * ((100vw - 320px) / 680));
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  h1 {
+    font-size: 72px;
+  }
+  p {
+    font-size: 22px;
+  }
+  .date {
+    font-size: 32px;
+  }
+}

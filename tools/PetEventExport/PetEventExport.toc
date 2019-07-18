@@ -1,0 +1,7 @@
+## Interface: 80200
+## Title: Pet Event Export
+## Notes: This Addon stores the times of the pet events in a lua file so that it can be used in a web application
+## Author: Jake Downing
+## SavedVariables: events
+
+PetEventExport.lua
