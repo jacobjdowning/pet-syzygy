@@ -46,7 +46,6 @@ h1 {
 }
 
 p {
-  padding-top: 20vh;
 	text-align: center;
 	font-family: "Verdana";
 	color: white;
@@ -55,7 +54,6 @@ p {
 }
 
 .date{
-  padding-top: 0;
 	font-size: 27px;
 }
 
@@ -67,6 +65,7 @@ p {
 }
 
 #wrapper div{
+  margin-top: 20vh;
   display: flex;
   flex: 20 1 auto;
   flex-flow: column nowrap;
